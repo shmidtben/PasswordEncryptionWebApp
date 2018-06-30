@@ -13,7 +13,7 @@
         <p>
             Please type in your password:</p>
         <p>
-            <asp:TextBox ID="TextBox1" runat="server" Height="30px" style="margin-top: 0px" TextMode="Password" Width="269px" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
+            <asp:TextBox ID="TextBox1" runat="server" Height="30px" style="margin-top: 0px" TextMode="Password" Width="269px"></asp:TextBox>
         </p>
         <p>
             &nbsp;</p>
@@ -21,7 +21,7 @@
             Please select the encryption algorithm you would like to use:</p>
         <p>
             <asp:Button ID="buttonSHA1" runat="server" OnClick="buttonSHA1_Click" Text="SHA-1" />
-            <asp:Button ID="buttonSHA2" runat="server" OnClick="buttonSHA2_Click" Text="SHA-2" />
+            <asp:Button ID="buttonSHA2" runat="server" OnClick="buttonSHA256_Click" Text="SHA-256" />
             <asp:Button ID="buttonMD5" runat="server" OnClick="buttonMD5_Click" Text="MD-5" style="width: 71px" />
             <asp:Button ID="buttonPBKDF2" runat="server" OnClick="buttonPBKDF2_Click" Text="PBKDF2" />
             <asp:Button ID="buttonBCRYPT" runat="server" OnClick="buttonBCRYPT_Click" Text="BCRYPT" />
